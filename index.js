@@ -41,7 +41,7 @@ class MerkleTree {
         }
     }
 
-    // Get the Merkle root (top hash)
+    // Get the Merkle root
     getRoot() {
         return this.layers[this.layers.length - 1][0];
     }
